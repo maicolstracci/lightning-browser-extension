@@ -1,11 +1,5 @@
 {
   "translation": {
-    "welcome": {
-      "nav": {
-        "welcome": "欢迎",
-        "password": "你的密码",
-        "done": "已完成"
-      }
-    }
+    "welcome": {}
   }
 }

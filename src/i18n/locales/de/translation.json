@@ -2,12 +2,6 @@
   "translation": {
     "welcome": {
       "title": "Die Power von Lightning in Deinem Browser",
-      "nav": {
-        "welcome": "Willkommen",
-        "password": "Dein Passwort",
-        "connect": "Mit Lightning verbinden",
-        "done": "Fertig"
-      },
       "intro": {
         "send": {
           "title": "Senden mit einem Klick",

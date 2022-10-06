@@ -2,12 +2,6 @@
   "translation": {
     "welcome": {
       "title": "Welcome to Alby",
-      "nav": {
-        "welcome": "Welcome",
-        "password": "Your Password",
-        "connect": "Your Lightning account",
-        "done": "Done"
-      },
       "intro": {
         "send": {
           "title": "Send in One Click",
