@@ -3,11 +3,9 @@ import { MemoryRouter } from "react-router-dom";
 
 import ChooseConnectorScreen from "../connectors/ChooseConnector";
 import ConnectLndScreen from "../connectors/ConnectLnd";
-import IntroScreen from "./Intro";
 import SetPasswordScreen from "./SetPassword";
 import TestConnectionScreen from "./TestConnection";
 
-export const Intro = () => <IntroScreen />;
 export const SetPassword = () => <SetPasswordScreen />;
 export const ChooseConnector = () => (
   <ChooseConnectorScreen title="Add a new lightning account" />
