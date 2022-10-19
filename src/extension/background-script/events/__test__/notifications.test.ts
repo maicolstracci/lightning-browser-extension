@@ -6,6 +6,7 @@ import type {
   AuthNotificationData,
   SettingsStorage,
 } from "~/types";
+import { AlbyEventType } from "~/types";
 
 import {
   paymentSuccessNotification,
@@ -44,6 +45,7 @@ describe("Payment notifications", () => {
   });
 
   const data: PaymentNotificationData = {
+    event: AlbyEventType.TRANSACTION,
     response: {
       data: {
         preimage:
