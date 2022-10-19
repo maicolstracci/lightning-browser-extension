@@ -190,6 +190,7 @@ describe("Auth notifications", () => {
   });
 
   const data: AuthNotificationData = {
+    event: AlbyEventType.AUTH,
     authResponse: {
       status: "OK",
     },
