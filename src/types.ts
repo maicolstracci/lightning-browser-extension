@@ -564,8 +564,13 @@ export interface AlbyEvent extends Omit<DbAlbyEvent, "id"> {
   id: number;
 }
 
+export enum AlbyEventBudgetType {
+  "CREATE" = "CREATE",
+  "UPDATE" = "UPDATE",
+}
+
 export interface AlbyEventBudgetUpdateDetails {
-  type: "update";
+  type: AlbyEventBudgetType;
   allowanceId: Allowance["id"];
   event: AlbyEventType.BUDGET;
 }
