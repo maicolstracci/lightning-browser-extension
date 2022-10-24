@@ -8,8 +8,8 @@ import type {
   OriginData,
   OriginDataInternal,
   PaymentNotificationData,
-  AlbyEventType,
 } from "~/types";
+import { AlbyEventType } from "~/types";
 
 const utils = {
   call: <T = Record<string, unknown>>(
